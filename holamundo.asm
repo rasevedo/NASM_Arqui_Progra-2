@@ -22,5 +22,5 @@
     section .data
 
         filename db "./output.txt", 0
-        texto db "prueba", 0
+        texto db "probando el io.mac", 0
         textlen equ $ - texto
